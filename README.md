@@ -16,6 +16,8 @@ Notebookファイルのダウンロードをしたい場合は、「**Notebook�
 
 * [Notebookファイル一括ダウンロード手順](download.md)
 
+* [Python入門](pdfs/a2-0-python-entry.pdf)
+
 <!---
 * [個別Notebookファイル](notebooks.md)
 -->  
