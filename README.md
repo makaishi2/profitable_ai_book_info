@@ -1,8 +1,6 @@
 # 書籍「儲かるAI」補足情報
 
-<!---
-![表紙](images/hyoshi.png)![fig04-04](images/fig04-04.png) ![fig09-22](images/fig09-22.png)
--->  
+![表紙](images/hyoshi-00.png)
 
 <!---
   [Amazonへのリンク](https://www.amazon.co.jp/dp/4296102508/)
