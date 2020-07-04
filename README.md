@@ -53,7 +53,7 @@ Notebookファイルのダウンロードをしたい場合は、「**Notebook�
 (著者twitterアカウント) [@makaishi2](https://twitter.com/makaishi2)  
 (注)著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています  
 
-(著者紹介記事) [AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://admin.blogs.prd.ibm.event.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)  
+(著者紹介記事) [AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)  
 勤務先のIBMのブログで紹介されました。
 
 
