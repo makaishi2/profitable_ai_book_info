@@ -43,4 +43,4 @@ Notebookファイルをまとめてダウンロードしたい場合は、次の
 <img src="images/download2.png" width="300">
 </div>
 
-[メインページに戻る](./README.md)
+[メインページに戻る](../README.md)
