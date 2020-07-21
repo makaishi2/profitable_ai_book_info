@@ -419,8 +419,9 @@ print(b)
 　リストと並んで重要なデータ構造に辞書(プログラミング言語によってはハッシュテーブルと呼ばれる場合もあります)があります。Pythonでの辞書の扱い方について簡単に説明しましょう。
 
 <h5 id="C1131">辞書の定義</h5>
-　最初は辞書の定義方法です。コードC1-1-15に具体例を示しました。
-　
+
+　最初は辞書の定義方法です。コードC1-1-15に具体例を示しました。  
+
 **コードC1-1-15 辞書の定義**
 
 [In]  
@@ -720,7 +721,7 @@ print(x1, p2, p3)
 [Out]  
 
 ```sh
-Requirement already satisfied: setuptools in /opt/anaconda3/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib->japanize-matplotlib) (46.0.0.post20200309)
+Successfully installed japanize-matplotlib-1.1.2
 ```
 
 　``!pip``と行頭に``!``がついているのは、Notebook内からOSコマンドを発行する場合のルールです。このコードで導入しているjapanize-matplotlibとは、matplotlibというグラフ用ライブラリを日本語対応するためのもので、本書のサンプルコードでは標準的に利用しています。
