@@ -5,7 +5,18 @@
 
 <h3 id="C31">C3.1 実習用CSV生成とその後の手順概要</h3>
 
-　当サイトから一括ダウンロードしたNotebookファイルに含まれている、autoai_data.ipynbをGoogle Colabにアップロードします。
+#### AutoAI用CSVデータの作成
+　Notebookファイル``c31_bank_autoai_data.ipynb``を利用して、当書籍5.1節で利用したのと同じデータをAutoAI用に生成します。  
+　Notebookファイルの処理の内容は以下の通りです。
+
+
+* UCIデータセットの読み込み
+* 項目名の日本語化
+* 訓練用60%、検証用40%の比率でデータ分割
+* 訓練用・検証用2つのデータフレームのcsv化
+* csvファイルのダウンロード
+
+　当サイトから一括ダウンロードしたNotebookファイルに含まれている、``c31_bank_autoai_data.ipynb``をGoogle Colabにアップロードします。
 
 <div align="left">
 <img src="images/c31-1.png" width="600">
@@ -14,42 +25,37 @@
  セルを一番上から最後まで順に実行します。
  
  <div align="left">
-<img src="images/c31-2.png" width="300">
+<img src="images/c31-2.png" width="400">
 </div>
 
  最後のセルまで実行すると、``bank-train-autoai.csv``と``bank-test-autoai.csv``いうファイルが生成されます。このうち、``bank-train-autoai.csv``ファイルを入力ファイルとして、AutoAIでモデルを生成します。
  
- 大まかな手順は以下のとおりです。
- 
- ユーザー登録(クレジットカード不要)から、Watson Studioのプロジェクト作成まで
+#### AutoAI利用のための準備
+ ガイドに従って、AutoAI利用のための準備を行います。
  
  [無料でなんでも試せる! Watson Studioセットアップガイド](https://qiita.com/makaishi2/items/b666f847a98c2e42dfbb)
+
+ ガイドの大まかな内容は以下のとおりです、
  
-AutoAIを使ってモデルを生成
+* IBM Cloudにユーザー登録(クレジットカード不要)
+* Watson Studioのインスタンス作成
+* Watson Studioのプロジェクト作成
+* Watson Machine Learningのインスタンス作成とプロジェクトへの紐付け
+ 
+ 
+#### AutoAIを使ってモデルを生成
+　ここまでの準備ができれば、あとは本当に簡単にモデルを生成できます。手順については、下記を参照して下さい。
 
 [AutoAIでお手軽機械学習(その2) モデル構築編](https://qiita.com/makaishi2/items/d6cd449f7a9f7186a833)
 
 
 <h3 id="C32">C3.2 自動生成モデルのチューニング方法</h3>
 
-#### Jupyter Notebookの生成から、Google Colabへのロード
-(T.B.D)
+#### Jupyter Notebookの生成から、Google Colabへのロード・実行
+この手順については、qiitaに記事を記載しました。
+こちらを参照して下さい。
 
-#### Google Colab環境で、自動生成したNotebookを動かす
-
-自動生成したNotebookをGoogle Colab上で動かすためには、下記の一カ所のみコードの追加が必要です (2020-07-19現在)
-
-
-##### 4. Create dataframe from dataset in Cloud Object Storage
-
-
-のセクションの直下に新しいセルを挿入し、下記のコードを貼り付けて実行して下さい。
-
-```py3
-df = pd.read_csv('https://raw.githubusercontent.com/makaishi2/sample-data/master/data/bank-train-autoai.csv')
-```
-このセクションのコードはすべてスキップし、セクション5から、実行を続けます。
-これで、一番最後のセルまで、エラーなしに実行できるようになります。
+[AutoAIでお手軽機械学習(その4) Jupyter Notebook編](https://qiita.com/makaishi2/items/0c59ae675362c9f85640)
 
 #### 新しいセルの追加
 
@@ -106,7 +112,7 @@ for thres in thres_list:
 
 4つの追加セルで、どのような結果が出るかと、その解説を簡単に行います。
 
-##### step 1
+##### step 1　確率値の取得
 
 [In]
 
@@ -130,7 +136,7 @@ print(w1[:10])
 
 AutoAIでは、できたモデルの変数名は``pipeline``です。また、検証用の入力データの変数名は``X_holdout``になります。それで、モデルから検証データの確率値を取するコードは``pipeline.predict_proba(X_holdout)``となります。
 
-##### step2
+##### step2　閾値付きの予測関数定義
 
 [In]
 
@@ -151,7 +157,7 @@ def pred(algorism, x, thres):
 
 確率値を取得する関数``pred``の定義です。実装は書籍とまったく同じなので、解説は省略します。
 
-##### step3
+##### step3　正解値の変換
 
 [In]
 
@@ -171,7 +177,7 @@ print(y_bin[:10])
 
 AutoAIで生成したモデルは、出力値が 'yes' / 'no' という文字列になっています。pred関数では、予測値は1/0であることが必要なので、正解値を1/0の形に変換します。変換後の正解値は``y_bin``に保存しています。
 
-##### step4
+##### step4 閾値を変えて、適合率、再現率の計算
 
 [In]
 
@@ -189,6 +195,8 @@ for thres in thres_list:
     print(f'閾値: {thres:.2f} 陽性予測数: {pred_sum}\
  適合率: {precision:.4f} 再現率: {recall:.4f}  F値: {fscore:.4f})')
 ```
+
+[Out]
 
 ```sh
 閾値: 0.00 陽性予測数: 2713 適合率: 0.1168 再現率: 1.0000  F値: 0.2092)
@@ -213,6 +221,7 @@ for thres in thres_list:
 閾値: 0.95 陽性予測数: 11 適合率: 0.9091 再現率: 0.0315  F値: 0.0610)
 ```
 
-本書4.4節、5.1節で解説した手法をAutoAIで自動生成したモデルに適用した結果です。
-本書の実習の中で作ったモデルの場合、一番性能がよかったパターンは閾値=0.30の時で、適合率0.5649、再現率0.6437、F値0.6017でした。
-それに対してAutoAIのモデルでは、似たケースとして閾値0.75で適合率0.5870、再現率0.6814、F値0,6307というケースがあります。両者を比較すると、AutoAIの方が性能がいいということがわかります。
+本書4.4節、5.1節で解説した手法をAutoAIで自動生成したモデルに適用した結果です。  
+本書の実習の中で作ったモデルの場合、一番性能がよかったパターンは閾値=0.30の時で、適合率0.5649、再現率0.6437、F値0.6017でした。  
+それに対してAutoAIのモデルでは、似たケースとして閾値0.75で適合率0.5870、再現率0.6814、F値0,6307というケースがあります。  
+両者を比較すると、AutoAIの方が性能がいいということがわかります。
