@@ -12,21 +12,19 @@
 当サイトは、書籍「儲かるAI」用の補足情報公開用のサイトとなります。  
 Notebookファイルのダウンロードをしたい場合は、「**Notebookファイル一括ダウンロード手順**」に従ってまとめてダウンロードした後、ZIPファイルを解凍して下さい。  
 
-* [Notebookファイル一括ダウンロード手順](download.md)
+* [Notebookファイル一括ダウンロード手順](refs/download.md)
 
 * [補足資料目次](docs/補足資料目次.md)
 
-<!---
-* [個別Notebookファイル](notebooks.md)
--->  
+* [個別Notebookファイル](refs/notebooks.md)
 
 <!---
 * [Notebook補足情報](notebook-ref.md)
 -->  
 
-* [正誤訂正](errors.md)
+* [正誤訂正](refs/errors.md)
 
-* [FAQ](faqs.md)
+* [FAQ](refs/faqs.md)
 
 
 
