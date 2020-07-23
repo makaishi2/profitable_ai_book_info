@@ -1,6 +1,6 @@
 # 書籍「Pythonで儲かるAIをつくる」サポートサイト
 
-![表紙](images/hyoshi-00.png)
+![表紙](images/hyoshi.jpg)
 
 <!---
   [Amazonへのリンク](https://www.amazon.co.jp/dp/4296102508/)
