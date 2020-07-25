@@ -1,22 +1,19 @@
 # 書籍「Pythonで儲かるAIをつくる」サポートサイト
 
-![表紙](images/hyoshi.jpg)
+　当サイトは、書籍「Pythonで儲かるAIをつくる」のサポートサイトです。  
+　本書の実習用Notebookファイルは、下の「**Notebookファイル一括ダウンロード手順**」に従ってまとめてダウンロードして下さい。なお、本書のNotebookはすべて米Google社の「Google Colaboratory」で動かすことを前提にしています。  
 
-<!---
-  [Amazonへのリンク](https://www.amazon.co.jp/dp/4296102508/)
--->  
+[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
 
+(追加事例やPython入門講座)  
+本書の中で紹介できなかった2つの事例に基づく実習や、Pythonの入門講座を公開しています。それらを読んでいただければ、本書のイメージがわかるはずです(下の補足資料目次参照)。
 
-***
-
-当サイトは、書籍「Pythonで儲かるAIをつくる」のサポートサイトです。  
-Notebookファイルのダウンロードをしたい場合は、「**Notebookファイル一括ダウンロード手順**」に従ってまとめてダウンロードした後、ZIPファイルを解凍して下さい。  
 
 * [Notebookファイル一括ダウンロード手順](refs/download.md)  
 
 * [書籍目次](refs/index.md)
 
-* [補足資料目次](docs/補足資料目次.md)
+* [補足資料目次](docs/補足資料目次.md)  
 
 * [個別Notebookファイル](refs/notebooks.md)
 
@@ -27,6 +24,19 @@ Notebookファイルのダウンロードをしたい場合は、「**Notebook�
 * [正誤訂正](refs/errors.md)
 
 * [FAQ](refs/faqs.md)
+
+
+<div align="left">
+<img src="images/hyoshi.jpg" width="300">
+</div>
+
+<!---
+  [Amazonへのリンク](https://www.amazon.co.jp/dp/4296102508/)
+-->  
+
+
+***
+
 
 
 
