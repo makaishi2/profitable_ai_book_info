@@ -1,5 +1,7 @@
 # 書籍「Pythonで儲かるAIをつくる」サポートサイト
 
+[Amazonへのリンク](https://www.amazon.co.jp/dp/4296106961/)
+
 　当サイトは、書籍「Pythonで儲かるAIをつくる」のサポートサイトです。  
 　本書の実習用Notebookファイルは、下の「**Notebookファイル一括ダウンロード手順**」に従ってまとめてダウンロードして下さい。なお、本書のNotebookはすべて米Google社の「Google Colaboratory」で動かすことを前提にしています。  
 
@@ -29,13 +31,6 @@
 <div align="left">
 <img src="images/hyoshi.jpg" width="300">
 </div>
-
-<!---
-  [Amazonへのリンク](https://www.amazon.co.jp/dp/4296102508/)
--->  
-
-
-***
 
 
 
