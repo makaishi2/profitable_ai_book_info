@@ -97,5 +97,6 @@
 (著者紹介記事) [AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)  
 勤務先のIBMのブログで紹介されました。
 
+(からあげ様ブログ) [「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)
 
 ***
