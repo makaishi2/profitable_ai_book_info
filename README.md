@@ -80,7 +80,7 @@
 
 |ソース  |タイトルとリンク  |補足|
 |---|---|---|
-|Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/){:target="_blank" rel="noopener"}||
+|Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/)||
 |読書メーター|[読書メーター 感想・レビュー](https://bookmeter.com/books/16410328)||
 |twitter|[@makaishi2](https://twitter.com/makaishi2)|(注)著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|勤務先のIBMのブログに著者のインタビュー記事が紹介されています。|
