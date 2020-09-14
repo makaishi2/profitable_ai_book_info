@@ -1,6 +1,8 @@
 # 書籍「Pythonで儲かるAIをつくる」サポートサイト
 
-[Amazonへのリンク](https://www.amazon.co.jp/dp/4296106961/)
+#### Amazonへのリンク
+[単行本](https://www.amazon.co.jp/dp/4296106961/)  
+[Kindle](https://www.amazon.co.jp/dp/B08F9P726T/)  
 
 <div align="left">
 <img src="images/hyoshi.jpg" width="200">
@@ -17,6 +19,10 @@
 * [個別Notebookファイル](refs/notebooks.md)
 
 * [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
+
+　下の手順に従えば、Notebookをダウンロードすることなく、いきなり動かすことも可能です。個々のファイルがどのような実習内容かについては、[個別Notebookファイル](refs/notebooks.md)を参考にして下さい。
+
+* [実習NotebookをGoogle Colabで動かす方法](https://qiita.com/makaishi2/items/25529634aac508dcd6b0)
 
 ## 内容紹介
 
