@@ -92,6 +92,7 @@
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|勤務先のIBMのブログに著者のインタビュー記事が紹介されています。|
 |からあげ様ブログ|[「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
 |NIKKEI STYLE ブックコラム|[AIは緻密な仕事が苦手? 営業で使うのがおすすめな理由](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|本書の編集を担当していただた安東様による紹介記事です。|
+|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です|
 
 <!---
 (ハイブリッド型総合書店 honto) [hontoレビュー](https://honto.jp/netstore/pd-review_0629564342_191.html)
