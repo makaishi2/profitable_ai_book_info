@@ -99,14 +99,17 @@
 |---|---|---|
 |Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/)||
 |読書メーター|[読書メーター 感想・レビュー](https://bookmeter.com/books/16410328)||
+|ハイブリッド型総合書店 honto| [hontoレビュー](https://honto.jp/netstore/pd-review_0630367266.html)||
+|BookLive|[BookLive ユーザーレビュー](https://booklive.jp/review/list/title_id/831502/vol_no/001#user_review)||
+|Youtube|[2021年決定版】非エンジニア用のわかりやすいAI入門本が見つかった！](https://www.youtube.com/watch?v=WeM6KvHNmqE&t=1s)|「独学クソリーマンの逆襲」様に「普通のサラリーマン目線で見た本書の特徴」を熱く語っていただいています。<br>本書の購入をご検討いただいている方にお勧めです！|
 |twitter|[@makaishi2](https://twitter.com/makaishi2)|著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
 |IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|勤務先のIBMのブログに著者のインタビュー記事が紹介されています。|
 |からあげ様ブログ|[「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
 |NIKKEI STYLE ブックコラム|[AIは緻密な仕事が苦手? 営業で使うのがおすすめな理由](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|本書の編集を担当していただた安東様による紹介記事です。|
-|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です|
+|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です。|
+|株式会社リュディア|[書評 Pythonで儲かるAIをつくる](https://note.com/lydiacorp/n/n3828ccc54cf7)|株式会社リュディア様より本書のレビューをいただいています。|
 
 <!---
-(ハイブリッド型総合書店 honto) [hontoレビュー](https://honto.jp/netstore/pd-review_0629564342_191.html)
 -->  
 
 
