@@ -70,7 +70,7 @@
 
 
 * [補足資料目次](docs/補足資料目次.md)  
-* [Prophetでコロナ陽性者予測をしよう]()
+* [Prophetでコロナ陽性者予測をしよう](https://qiita.com/makaishi2/items/aa88ccdc87af3e45edd7)
 
 ## 正誤訂正・FAQ
 
