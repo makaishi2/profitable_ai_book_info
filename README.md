@@ -70,7 +70,62 @@
 
 
 * [補足資料目次](docs/補足資料目次.md)  
-* [Prophetでコロナ陽性者予測をしよう](https://qiita.com/makaishi2/items/aa88ccdc87af3e45edd7)
+
+
+
+***
+## リンク集
+
+### 著者発信の情報
+
+
+|ソース  |タイトルとリンク  |補足|
+|---|---|---|
+|qitta|[最短コースで機械学習を学べる　書籍「Pythonで儲かるAIをつくる」紹介](https://qiita.com/makaishi2/items/47e9afc3162bfd9c3c3c)|本書の特徴を著者自らが解説しています。|
+|qitta|[Prophetでコロナ陽性者予測をしよう](https://qiita.com/makaishi2/items/aa88ccdc87af3e45edd7)|本書5.3節でProphetを用いた時系列予測の紹介をしていますが、その応用事例として実データを使ったコロナ陽性者予測をしています。|
+|qitta|[Pythonでアソシエーション分析](https://qiita.com/makaishi2/items/c5f06f844cdb8454b6c3)|本書5.4節では(scikit-learnに該当ライブラリがないため)mlextendを使いアソシエーション分析を行っています。その実装面のポイントを抽出して記事にしました。|
+|qitta|[AutoAIでお手軽機械学習(その1) 準備編](https://qiita.com/makaishi2/items/d63f0bbac32a975c391e)|本書最後のコラム(p.328)では AutpoMLと呼ばれるモデル構築自動化ツールの一例として IBM Cloud上のサービスであるAutoAIを紹介しています。このコラムの内容は、左の記事に始まる一連のリンクの手順で読者も自ら試すことができます。|
+|speakerdeck|[データサイエンティストに必要なスキルと、分析プロジェクトを成功させるための上流工程のポイント](https://bit.ly/3gcFCJL)|2021年12月にSFC データビジネス創造コンソーシアムの講演で利用した資料です。２部構成になっており、第２部では本書６章の中でも最重要のポイントを簡潔にまとめています。|
+|twitter|[@makaishi2](https://twitter.com/makaishi2)|著者のツイッターアカウント。書籍に関連した情報発信とretweetが中心です。|
+|IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
+
+### 外部リンク
+
+|ソース  |タイトルとリンク  |補足|
+|---|---|---|
+|Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/)||
+|読書メーター|[読書メーター 感想・レビュー](https://bookmeter.com/books/16410328)||
+|ハイブリッド型総合書店 honto| [hontoレビュー](https://honto.jp/netstore/pd-review_0630367266.html)||
+|BookLive|[BookLive ユーザーレビュー](https://booklive.jp/review/list/title_id/831502/vol_no/001#user_review)||
+|Youtube|[2021年決定版】非エンジニア用のわかりやすいAI入門本が見つかった！](https://www.youtube.com/watch?v=WeM6KvHNmqE&t=1s)|「独学クソリーマンの逆襲」様に「普通のサラリーマン目線で見た本書の特徴」を熱く語っていただいています。<br>本書の購入をご検討いただいている方にお勧めです！|
+|からあげ様ブログ|[「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
+|NIKKEI STYLE ブックコラム|[AIは緻密な仕事が苦手? 営業で使うのがおすすめな理由](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|本書の編集を担当していただた安東様による紹介記事です。|
+|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です。|
+|株式会社リュディア|[書評 Pythonで儲かるAIをつくる](https://note.com/lydiacorp/n/n3828ccc54cf7)|株式会社リュディア様より本書のレビューをいただいています。|
+
+
+
+***
+
+## UCIサイトからダウンロードできない場合
+(2021-05-15 追記)
+2021年5月15日現在、上記UCIサイトの問題は解決していました。念のため、データセットのコピーはそのままにしておきます。
+
+
+(2021-05-10 追記)
+原因は不明ですが、現在UCIサイトから公開データセットがダウンロードできない事象が発生しているようです。そのため、5章の実習はすべてできない状態になっています。
+一時対応として、当サポートサイト上に実習で必要なデータをアップしておきました。  
+リンク先は  [データ保存先](./data)  になります。  
+このファイルを使う場合、Notebook側も自力で修正することが必要になります。その点はご理解いただくようお願いします。
+ 
+
+
+<!---
+-->  
+
+
+
+***
 
 ## 正誤訂正・FAQ
 
@@ -81,41 +136,6 @@
 * [正誤訂正](refs/errors.md)
 
 * [FAQ](refs/faqs.md)
-
-
-***
-## リンク集
-
-|ソース  |タイトルとリンク  |補足|
-|---|---|---|
-|Amazon|[Amazonレビュー](https://www.amazon.co.jp/product-reviews/4296106961/)||
-|読書メーター|[読書メーター 感想・レビュー](https://bookmeter.com/books/16410328)||
-|ハイブリッド型総合書店 honto| [hontoレビュー](https://honto.jp/netstore/pd-review_0630367266.html)||
-|BookLive|[BookLive ユーザーレビュー](https://booklive.jp/review/list/title_id/831502/vol_no/001#user_review)||
-|Youtube|[2021年決定版】非エンジニア用のわかりやすいAI入門本が見つかった！](https://www.youtube.com/watch?v=WeM6KvHNmqE&t=1s)|「独学クソリーマンの逆襲」様に「普通のサラリーマン目線で見た本書の特徴」を熱く語っていただいています。<br>本書の購入をご検討いただいている方にお勧めです！|
-|twitter|[@makaishi2](https://twitter.com/makaishi2)|著者は原則twitterではつぶやきませんが、書籍に関連したつぶやきをretweetで紹介しています。|
-|IBM Blog|[AI関連書籍三冊目を出版したIBM赤石雅典に聞く「AIと仕事と執筆」](https://www.ibm.com/blogs/solutions/jp-ja/data_science_and_ai_akaishi-san/)|IBM勤務時代、会社のブログにインタビュー記事が紹介されています。|
-|からあげ様ブログ|[「Pythonで儲かるAI」はビジネス向けの超実践的な機械学習本でした](https://karaage.hatenadiary.jp/entry/2020/08/19/073000)|AI関連で有名なブロガーである「からあげ」様による書評です。|
-|NIKKEI STYLE ブックコラム|[AIは緻密な仕事が苦手? 営業で使うのがおすすめな理由](https://style.nikkei.com/article/DGXMZO63178800Y0A820C2000000/)|本書の編集を担当していただた安東様による紹介記事です。|
-|日経クロステック|[Pythonで役立つAIをつくる方法（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/01408/)|本書の3章の内容を5回に分けて連載した記事です。|
-|株式会社リュディア|[書評 Pythonで儲かるAIをつくる](https://note.com/lydiacorp/n/n3828ccc54cf7)|株式会社リュディア様より本書のレビューをいただいています。|
-
-
-## UCIサイトからダウンロードできない場合
-(2021-05-10 追記)
-原因は不明ですが、現在UCIサイトから公開データセットがダウンロードできない事象が発生しているようです。そのため、5章の実習はすべてできない状態になっています。
-一時対応として、当サポートサイト上に実習で必要なデータをアップしておきました。  
-リンク先は  [データ保存先](./data)  になります。  
-このファイルを使う場合、Notebook側も自力で修正することが必要になります。その点はご理解いただくようお願いします。
- 
-(2021-05-15 追記)
-2021年5月15日現在、上記UCIサイトの問題は解決していました。念のため、データセットのコピーはそのままにしておきます。
-
-
-
-<!---
--->  
-
 
 
 ***
