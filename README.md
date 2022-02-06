@@ -84,6 +84,7 @@
 |qitta|[最短コースで機械学習を学べる　書籍「Pythonで儲かるAIをつくる」紹介](https://qiita.com/makaishi2/items/47e9afc3162bfd9c3c3c)|本書の特徴を著者自らが解説しています。|
 |qitta|[Prophetでコロナ陽性者予測をしよう](https://qiita.com/makaishi2/items/aa88ccdc87af3e45edd7)|本書5.3節でProphetを用いた時系列予測の紹介をしていますが、その応用事例として実データを使ったコロナ陽性者予測をしています。|
 |qitta|[Pythonでアソシエーション分析](https://qiita.com/makaishi2/items/c5f06f844cdb8454b6c3)|本書5.4節では(scikit-learnに該当ライブラリがないため)mlextendを使いアソシエーション分析を行っています。その実装面のポイントを抽出して記事にしました。|
+|qitta|[「Pythonで儲かるAIをつくる」実装補足](https://qiita.com/makaishi2/items/cf0895bce50374bbb2ca)|ライブラリのバージョンアップ等の理由で、本書で説明されている実装をよりシンプルにできるケースを紹介しています。|
 |qitta|[AutoAIでお手軽機械学習(その1) 準備編](https://qiita.com/makaishi2/items/d63f0bbac32a975c391e)|本書最後のコラム(p.328)では AutpoMLと呼ばれるモデル構築自動化ツールの一例として IBM Cloud上のサービスであるAutoAIを紹介しています。このコラムの内容は、左の記事に始まる一連のリンクの手順で読者も自ら試すことができます。|
 |speakerdeck|[データサイエンティストに必要なスキルと、分析プロジェクトを成功させるための上流工程のポイント](https://bit.ly/3gcFCJL)|2021年12月にSFC データビジネス創造コンソーシアムの講演で利用した資料です。２部構成になっており、第２部では本書６章の中でも最重要のポイントを簡潔にまとめています。|
 |twitter|[@makaishi2](https://twitter.com/makaishi2)|著者のツイッターアカウント。書籍に関連した情報発信とretweetが中心です。|
