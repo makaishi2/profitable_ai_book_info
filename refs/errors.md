@@ -23,6 +23,7 @@
 |5章|p.214|上から2行目、3行目 <br> (誤)y_proba0 (正)y_proba1||2021-06-13|
 |5章|p.232|下から2行目 <br> (出版時)``df.hist(bins=50)`` <br> (現在)``df.hist(bins=20, column=columns[1:])``|Google Colab上のライブラリバージョンアップで日付列も表示されるようになったことへの対応でコードを修正|2022-02-25|
 |5章|p.232|コード5-2-6の図  <br> (出版時) <img width="350" src="../images/code-05-02-06-org.png"> <br> (現在) <img width="350" src="../images/code-05-02-06-new.png">|Google Colab上のライブラリバージョンアップで表示結果が変わりました。(グラフの表示順が項目順とそろって見やすくなっています)|2022-02-25|
+|5章|p.256|上から2行目 <br> (出版時)from fbprophet import Prophet <br>(現在)from prophet import Prophet|Google Colab上のライブラリバージョンアップでライブラリ名が変更になりました|2022-09-30|
 
 <hr>
 
